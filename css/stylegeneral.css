@@ -93,3 +93,21 @@ nav{
     width: 49%;
     box-sizing: border-box;
 }
+
+footer{ 
+    background: #111743;
+    color: #fff;
+}
+
+.cajaf{
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 23vw;
+}
+.fimagen{
+    width: 10px;
+}
+.fcaja1{
+    box-sizing: border-box;
+    width: 18%;
+}
