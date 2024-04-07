@@ -5,12 +5,12 @@ body{
     font-family: sans-serif;
     margin: 0;
 }
-h2,h3,span{
+h2,h3,span, .direccion{
     font-size: 22px;
     font-weight: bold;
     color: #222f83;
 }
-h3, span{
+h3, span, .direccion{
     font-size: 10px;
     font-weight: bold;
 }
@@ -76,10 +76,20 @@ nav{
     padding-top: 32px;
 }
 
-.boton, .sel {
-    background: #fff;
-    border: transparent;
-    font-size: 10px;
-    padding: 5px 8px;
-    color: #222f83;
+.cuerpo {
+    padding: 5em 20.4vw;
+    width: 57vw;
+}
+
+.imagen3 {
+    width: 68em;
+}
+
+.imagen4 {
+    width: 35%;
+}
+
+.finalcuerpo{
+    width: 49%;
+    box-sizing: border-box;
 }
