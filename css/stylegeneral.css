@@ -1,14 +1,19 @@
 body{
-    background-color: #fff;
-    color: #444;
+    background-color: #002633;
+    color: #777776;
     font-size: 10px;
     font-family: sans-serif;
     margin: 0;
+    line-height: 15px;
+}
+main, header{
+background-color: #fff;
+width: 100vw;
 }
 h2,h3,span, .direccion{
     font-size: 22px;
     font-weight: bold;
-    color: #222f83;
+    color: #044e99;
 }
 h3, span, .direccion{
     font-size: 10px;
@@ -74,6 +79,15 @@ nav{
 
 .barra_navegador {
     padding-top: 32px;
+    padding-left: 8px;
+}
+
+.boton, .sel{
+    border: transparent;
+    background: transparent;
+    color: #044e99;
+    font-size: 10px;
+    margin: 0 5px;
 }
 
 .cuerpo {
@@ -95,19 +109,106 @@ nav{
 }
 
 footer{ 
-    background: #111743;
-    color: #fff;
+    background: #002633;
+    color: #7697a3;
+    margin: 0;
+    width: 100vw;
 }
 
-.cajaf{
+.cajafa{
     display: flex;
     box-sizing: border-box;
-    padding: 40px 23vw;
+    padding: 40px 20vw;
 }
 .fimagen{
     width: 10px;
+    height: 10px;
+    margin: 13px 6px 0px 6px;
+}
+.separador3{
+    width: 100vw;
+    height: 1px;
+    background-color: #555;
 }
 .fcaja1{
     box-sizing: border-box;
-    width: 18%;
+    width: 40%;
+    margin: 6px;
+    font-size: 11px;
+}
+.ajuste, .union, .cajafb{
+   display: flex;
+   box-sizing: border-box;
+   padding: 0px 0;
+   border: none;
+   margin: 0;
+   height: 30px;
+}
+
+.spanf{
+    color: #7697a3;
+    font-weight: bolder;
+}
+
+.enlaceU{
+    color: #7697a3;
+}
+
+.form_input, .texta_input{
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    border-left: 1px #f00 solid;
+    margin: 5px;
+    color: #fff;
+    font-size: 10px;
+    padding: 6px 0 6px 7px;
+}
+.texta_input{
+    width: 92.5%;
+    margin-bottom: 15px;
+}
+
+.titulof{
+    color: #fff;
+    font-size: 13px;
+}
+
+.botonf {
+    width: 98%;
+    color: #fff;
+    background: #014f99;
+    height: 27px;
+    font-weight: lighter;
+    font-size: 11px;
+    border: transparent;
+}
+
+.caja111{
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.copiray{
+    width: 11vw;
+    margin: auto;
+    font-size: 9px;
+    line-height: 13.5px;
+    padding-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.creador{
+    width: 12vw;
+    margin: auto;
+    padding-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 13.5px;
+    font-size: 9px;
+}
+
+.creadore{
+    color: #ddd;
+    font-size: 9px;
+    font-weight: lighter;
 }
