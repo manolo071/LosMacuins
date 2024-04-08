@@ -69,13 +69,28 @@
 		</nav>
 	</header>
 	<main>
+
+
+
 		<!--carrusel de imagenes-->
-		<section id="carrusel">
-			<div class="conteCarrouselController">
-				<img src="images/personal001.jpg" alt="pasarela de vehiculos">
-				<img src="images/personal002.jpg" alt="vehiculo de trasporte pequeño">
+		<section class="container">
+			<div class="slider">
+				<input type="radio" name="slider" id="slideOne" checked>
+				<input type="radio" name="slider" id="slideTwo">
+
+				<div class="buttons">
+					<label for="slideOne"></label>
+					<label for="slideTwo"></label>
+				</div>
+
+				<div class="content">
+					<div class="firstslide"><img src="images/personal001.jpg" alt="pasarela de vehiculos" class="vehiculo"></div>
+					<div class="secondslide"><img src="images/personal002.jpg" alt="vehiculo de trasporte pequeño"class="vehiculo"></div>
+				</div>
 			</div>
 		</section>
+
+
 		<!--cuerpo-->
 		<section class="cuerpo">
 			<h2>Servicios de Personal</h2>
